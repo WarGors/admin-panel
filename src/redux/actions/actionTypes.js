@@ -1,0 +1,7 @@
+export const ADD_FILTER = 'ADD_FILTER'
+export const CHANGE_USER_PARAMS = 'CHANGE_USER_PARAMS'
+export const SHOW_FORM = 'SHOW_FORM'
+export const CHECK_VALID = 'CHECK_VALID'
+export const ADD_USER = 'ADD_USER'
+export const REMOVE_USER = 'REMOVE_USER'
+export const SET_DEFAULT_USER = 'SET_DEFAULT_USER'

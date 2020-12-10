@@ -1,0 +1,27 @@
+.admin-list-container {
+
+  &-filtres {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 650px;
+    height: 40px;
+    margin: 20px auto;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      list-style-type: none;
+      
+    }
+  }
+
+  select {
+    cursor: pointer;
+  }
+  
+}

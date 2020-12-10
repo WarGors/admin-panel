@@ -1,0 +1,39 @@
+.user-container {
+  border: 1px solid black;
+  width: 500px;
+  position: relative;
+  margin: 10px auto;
+
+  div {
+    margin: 5px 10px;
+    max-width: 330px;
+    word-wrap: break-word;
+  }
+
+  button {
+    position: absolute;
+    right: 78px;
+    top: 5px;
+    outline: none;
+    background-color: rgb(14, 160, 148);
+    border: 0;
+    border-radius: 4px;
+    padding: 5px 10px;
+    color: white;
+    cursor: pointer;
+
+    &:hover {
+      background-color: rgb(36, 11, 95);
+    }
+
+    &:active {
+      background: rgb(5, 5, 56);
+    }
+  }
+
+  .remove {
+    background-color: red;
+    right: 5px;
+    top: 5px;
+  }
+}
