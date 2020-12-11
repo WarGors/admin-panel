@@ -1,9 +1,9 @@
 import { ADD_FILTER, ADD_USER, CHANGE_USER_PARAMS, CHECK_VALID, REMOVE_USER, SET_DEFAULT_USER, SHOW_FORM } from "../actions/actionTypes"
 
-const fromStorage = [...JSON.parse(localStorage.getItem('users'))] || []
+const fromStorage = JSON.parse(localStorage.getItem('users'))
 
 const initialState = {
-  users: fromStorage,
+  users: fromStorage ? [...fromStorage] : [],
   user: {
     userName: '',
     password: '',
